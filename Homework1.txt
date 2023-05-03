@@ -1,0 +1,30 @@
+   0 mkdir /home/animals /home/animals/dogs /home/animals/cats /home/animals/fish
+   1 tree /home/
+   2 touch /home/animals/dogs/pluto /home/animals/cats/garfild /home/animals/fish/nemo
+   3 tree /home/
+   4 mkdir /home/planets
+   5 ls
+   6 ls /home/
+   7 cd /opt
+   8 touch Mercury Venus Mars Jupiter
+   9 ls
+  10 mv Mercury Mars Jupiter Venus /home/planets/
+  11 cd
+  12 tree /home/
+  13 touch /tmp/adam
+  14 ls /tmp/
+  15 mkdir /home/humans
+  16 touch /tmp/evA
+  17 cd /tmp/
+  18 cp adam /home/humans/
+  19 mv evA /opt/eve
+  20 cd
+  21 ls /opt/
+  22 ls /tmp/
+  23 tree /home/
+  24 mv /opt/eve /home/humans/
+  25 cd /home/humans/
+  26 ls
+  27 cd
+  28 history
+  29 history > history.txt
