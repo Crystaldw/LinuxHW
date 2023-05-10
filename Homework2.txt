@@ -1,0 +1,24 @@
+   0 /opt/ ls
+   1 ls /opt/
+   2 /opt/task/
+   3 mkdir -p /home/user/start /opt/task /tmp/testnew
+   4 nano
+   5 date >> /home/user/start/1.txt 
+   6 cat /home/user/start/1.txt 
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 cat /opt/task/start.txt 
+   9 ls -l
+  10 ls -al
+  11 ls -al | tail -4 >> /opt/task/start.txt 
+  12 cat /opt/task/start.txt 
+  13 cp -r /opt/task/* /tmp/testnew/
+  14 tree /tmp/
+  15 cp -r /opt/* /tmp/testnew/
+  16 tree /tmp/
+  17 cat readme.txt >> /tmp/testnew/task/start.txt 
+  18 cat /tmp/testnew/task/start.txt 
+  19 rm -rf /opt/task/
+  20 ls opt
+  21 ls /opt/
+  22 history
+  23 history > history.txt
